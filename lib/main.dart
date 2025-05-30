@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/receitas_page.dart';
+import 'pages/recipes_page.dart'; // Changed import path
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Receitas',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: ReceitasPage(),
+      home: const RecipesPage(), // Changed to RecipesPage
     );
   }
 }
